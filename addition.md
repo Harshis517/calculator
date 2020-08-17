@@ -16,7 +16,6 @@ Scenario: Add two real numbers.
   Given I have calculator that's turned on and the sum will have the same sign as the numbers with the greater absolute value.
   
   When I enter "number 1"
-  And I press "+" button
   And I enter "number 2"
   And I press "="button
   
