@@ -9,7 +9,7 @@ Scenario: Add two numbers.
   And I enter "number 2"
   And I press "="button
   
-  Then I see the "added-sum" as the result
+  Then I see the "added-sum" as the result.
 
 
   
