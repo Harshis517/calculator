@@ -11,10 +11,16 @@ Scenario: Add two numbers.
   
   Then I see the "added-sum" as the result
 
-Scenario: (describe a scenario here)
+Scenario: Add two real numbers.
   
-  Given (state the initial condition)
+  Given I have calculator that's turned on and the sum will have the same sign as the numbers with the greater absolute value.
   
-  When (state the event)
+   When I enter "number 1"
+  And I press "+" button
+  And I enter "number 2"
+  And I press "="button
   
-  Then (state the effect)
+  Then I see the "signed added-sum" as the result
+
+  
+
